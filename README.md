@@ -14,7 +14,9 @@ Unfortunately, there is no driver in Linux kernel source tree which can work wit
 - 3.17.0-0.rc2.git3.1.fc22.x86_64
 - 3.12.26-1.20140808git4ab8abb.rpfr20.armv6hl.bcm2708
 
-*Because there is very little chance that this driver will ever become part of the Linux kernel, a new mac80211 driver  was written from scratch. You can download it from https://github.com/kuba-moo/mt7601u. Note that the new driver requires quite recent kernels to run (3.19 or newer).*
+### Unofficial mt7601u driver
+
+For kernels 3.19 and later a new mac80211 driver was written from scratch by the community.  It was done because there is very little chance that this vendor driver will ever become part of official Linux kernel. If you have Linux kernel version between 3.19 and 4.2 you can download the new driver from https://github.com/kuba-moo/mt7601u. If you have Linux 4.2 or later the new driver is already part of the kernel (it's called mt7601u). Note that from Linux 4.2 on you will have to blacklist the mt7601u driver to continue using code from this repository.
 
 ### Usage
 
