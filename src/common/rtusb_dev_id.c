@@ -46,6 +46,7 @@ USB_DEVICE_ID rtusb_dev_id[] = {
 	{USB_DEVICE(0x2a5f,0x1000)}, /* Tencent wifi QQ */
 	{USB_DEVICE(0x2955,0x0001)}, /* XiaoDu Wifi */
 	{USB_DEVICE(0x2955,0x1001)}, /* XiaoDu Wifi */
+	{USB_DEVICE(0x2955,0x1002)}, /* XiaoDu Wifi (Hao123)*/
 	{USB_DEVICE(0x2955,0x1003)}, /* nuomi wifi */
 #endif /* MT7601U */
 	{ }/* Terminating entry */
